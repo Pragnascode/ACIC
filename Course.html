@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>University Website Design</title>
+		<link rel="icon" type="image" href="images/th.jpeg">
+		<!-- style.css linking here -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- font family linking here -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- font-awesome.min.css linking here -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- header section strt -->
+		<section class="sub-header">
+			<!-- nav strt -->
+			<nav>
+				<a href="index.html"><img src="" alt=""></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li>
+							<a href="index.html">HOME</a>
+						</li>
+						<li>
+							<a href="About.html">ABOUT</a>
+						</li>
+						<li>
+							<a href="Course.html">VISION</a>
+						</li>
+						<li>
+							<a href="Blog.html">MISSION</a>
+						</li>
+						<li>
+							<a href="Contact.html">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<!-- nav end -->
+			<h1>ACIC-MLRIT</h1>
+		</section>
+		<!-- header section end -->
+
+		<!-- Course content strt -->
+		<section class="course">
+			<h1>OUR MISSION</h1>
+			<p>The mission of ACIC MLRIT is to enable people at the local level by providing a nurturing atmosphere for creativity, skill-building, and community involvement. We are dedicated to giving prospective business owners all the help they need, including resources and mentorship. We aim to foster concepts that not only tackle regional issues but also support the advancement of a sustainable society. We seek to promote inclusivity, creativity, and excellence in transforming novel concepts into practical solutions through cooperative efforts with industry and community partners, leaving a long-lasting positive impact on both individuals and communities.
+			</p>
+			
+			</div>
+		</section>
+
+		<!-- Facilities -->
+		<section class="facilities">
+			<h1>Our Facilities</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit.</p>
+			<div class="row">
+				<div class="facilities-col">
+					<img src="images/library.png" alt="">
+					<h3>World Class Library</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+				</div>
+				<div class="facilities-col">
+					<img src="images/basketball.png" alt="">
+					<h3>Largest Play Ground</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+				</div>
+				<section class="facilities">
+					<h1>FACILITIES</h1>
+					<p>A grassroots innovation, promoting a dynamican innovative hub  ecosystem that cuts across traditional lines.</p>
+					<div class="row">
+						<div class="facilities-col">
+							<img src="MLR.jpeg" alt="">
+							<h3>INFRASTRUCTURE
+					
+							</h3>
+							<p> Dedicated libraries, breakout zones, and collaborative workspaces cater to diverse learning styles and encourage peer-to-peer interaction.</p>
+						</div>
+						<div class="facilities-col">
+							<img src="LIB.jpg" alt="">
+							<h3>RESEARCH </h3>
+							<p>Empowers students to engage in cutting-edge research alongside renowned faculty, contributing to impactful solutions for real-world challenges.</p>
+						</div>
+						<div class="facilities-col">
+							<img src="CIE.jpg" alt="">
+							<h3>INNOVATION HUBS</h3>
+							<p>Fosters a vibrant research ecosystem, driving innovation through interdisciplinary collaboration and access to state-of-the-art facilities.</p>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+
+		
+		
+		<!-- footer strt -->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>ACIC MLRIT gives people at the bottom of the pyramid a platform to innovate and make significant contributions
+		<!-- footer end -->
+		<!-- Javascript for toggle menu -->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+	</body>
+</html>
